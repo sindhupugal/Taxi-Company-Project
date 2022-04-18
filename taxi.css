@@ -1,0 +1,427 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.menubar{
+  float: right;
+  height: 40px;
+  padding-top: 10px;
+  position: relative;
+  top: 20px;
+}
+.icon{
+  height: 100px; 
+  padding: 0px 8px;
+  position: relative;
+  bottom: 5px;
+}
+/* Page 1 responsive */
+.frontbg{
+  background: #F4C53B;
+}
+ .call{ 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #555C66;
+  letter-spacing: 2px;
+   margin: 70px 10px; 
+   position: relative;
+   top: 40px;
+}
+.number{
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 1.3;
+  color: #555C66;
+  margin: 50px 10px;
+  padding-top: 10px 0px 0px 0px;
+}
+.callbtn{
+   /* margin: 10px 10px;  */
+   position: relative; 
+  bottom: 10px;
+  width: 40%;
+  height: 50px;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #efefef;
+  background-color:#292D33 ;
+}
+.callbtn:hover{
+  background: #555C66;
+}
+/* Taxi page 2 */
+.box1{
+  height: 550px;
+  background: #F4C53B;
+  margin: 10px;
+  box-shadow: 0px 5px 10px #333;
+  position: relative;
+  top: 30px;
+ }
+ .box2{
+    height: 550px;
+    background: #F4C53B;
+    margin: 10px;
+    box-shadow: 0px 5px 10px #333;
+    position: relative;
+    top: 30px;
+   }
+   .box3{
+    height: 550px;
+    background: #F4C53B;
+    margin: 10px;
+    box-shadow: 0px 5px 10px #333;
+    position: relative;
+    top: 30px;
+   }
+ .taxiimg{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;  
+    top: 20px;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+ }
+ .taxihead{
+     text-align: center;
+     padding: 20px;
+     font-size: 25px;
+     font-weight: 600;
+ }
+ .taxipara{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    font-size: 1.7rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+ }
+ /* page -3 */
+ .rectangle{
+      height: 50px;
+      width: 240px;
+      margin: 30px 1px; 
+      background-color: yellow;
+    }
+  .page2img{ 
+   width: 360px;
+   height: 253px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   top: 70px;
+ }
+ .page2para{
+  font-family: 'Open Sans',sans-serif;
+    font-size: 17px;
+   line-height: 1.8;
+   margin: 95px 80px 0;
+   position: relative;
+   left: 20px;   
+ }
+ .page2head{
+  font-family: 'Oswald', sans-serif;
+   font-size: 50px;
+   margin: 40px 1px; 
+    font-weight: 500; 
+    line-height: 1.1;  
+    letter-spacing: 2px;
+    position: relative;
+   top: 25px;
+ }
+ .page2img2{
+   height: 290px;
+   /* margin: 0 auto 0 0; */
+   width: 100%;
+   display: block;
+   /* margin-left: 10px;  */
+   margin-right: auto;
+ }
+ .page2para2{
+  font-family: 'Open Sans',sans-serif;
+   font-size: 17px;
+  line-height: 2;
+  margin: 35px 1px 0; 
+  text-align:left;
+}
+.page2img3{
+   height: 344px;
+    width: 271px;
+    margin: 20px auto 0 0;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+/* PAGE 4 yellow cab NYC */
+.yellowcabimg1{
+  width: 100%;
+  height: 550px;
+  margin-top: 70px;
+}
+.yellowcabimg2{  
+  width: 350px;
+    height: 420px;
+    margin: -610px 0 0 0;
+    margin-left: 1px;
+    z-index: 1;
+}
+.imgbg{  
+  height: 400px;
+  width: 350px;
+  margin: 200px 11px 0 1px; 
+   /* background: #121010;   */
+    background: #f6f6f5; 
+}
+.page4bg{
+  margin-top: 70px;
+  background: #F4C53B;
+  padding-bottom: 40px;
+}
+.yellowcabhead{
+  font-family: 'Oswald', sans-serif;
+  margin-top: 30px;
+}
+.yellowcabpara{
+  font-family:'Open Sans',sans-serif;
+  font-size: 17px;
+  margin-top: 30px;
+  line-height: 1.6;
+ color: black;
+}
+/* page 5 overlay Responsive */
+/* page 5 overlay Responsive */
+
+.box1page6{ 
+  width: 300px;
+  height: 600px;
+  margin: 51px auto 0 0;
+  background:#F1C50E; 
+  
+}
+.taxipic1{
+  width: 400px;
+    height: 600px;
+    margin-top: 50px;
+    border: 6px solid #F1C50E;
+     /* margin: -380px 90px 0 auto;  */
+    /* margin-left: 300px; 
+     object-fit: cover; 
+     display: block; */
+  
+}
+.box3book{
+  width: 380px;
+  height: 450px;
+  background:#F2F2F2;
+  border: 6px solid black;
+  margin-left: 33px;
+  margin-right: 500px;
+  margin-top: -500px;
+  margin-bottom: 80px;
+  position: relative;
+  bottom: 50px;
+}
+.box4about{
+  width: 320px; 
+ height: 280px;
+  background: #F1C50E;
+   margin-left: 30px;
+  margin-top: 10px;
+  position: relative;
+  bottom: 20px;
+}
+.aboutusimg { 
+ 
+  width: 320px;
+  height: 280px;
+  margin-left:320px;
+position: relative;
+bottom: 100px;
+right: 150px; 
+}
+.booktrip{ 
+  font-size: 50px; 
+  font-weight: 600;
+  font-family: 'Oswald',sans-serif;
+  margin-left: 22px;
+  position: relative;
+  top: 55px;
+}
+.booktrippara{
+  font-size: 18px;
+  font-family: 'Open Sans',sans-serif;
+  margin-left: 14px;
+  line-height: 1.8;
+  margin-left: 22px;
+  position: relative;
+  top: 90px;
+}
+.callbtnbook{
+  width: 100px;
+  height: 40px;
+  color: #efefef;
+  background-color:#292D33 ;
+  margin-left: 22px;
+  position: relative;
+  top: 118px;
+}
+.aboutushead{  
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Oswald',sans-serif;
+  margin-left: 14px;
+  position: relative;
+  top: 30px;
+}
+.aboutusheadpara{
+  font-size: 17px;
+  font-family: 'Open Sans',sans-serif;
+  margin-left: 16px;
+  position: relative;
+  top: 58px;
+}
+/* PAGE 6 RESPONSIVE */
+.details{ 
+  width: 400px;
+  height: 600px;
+  background-color: #FFFFFF;
+}
+.detailcarimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.detailcontact{
+text-align: center;
+margin-bottom: 60px;
+}
+.detailcontact2{
+  text-align: center;
+  margin-bottom: 60px;
+  }
+  .detailcontact3{
+    text-align: center;
+    }
+   .page6bg{
+    background-image: url(images/bridgebg.jpg);
+    background-position: 50% 50%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    height: 1000px;
+    width: 100%;
+}
+/* PAGE 7 RESPONSIVE */
+.get{
+  font-family: 'Oswald',sans-serif;
+   font-size: 30px;
+   font-weight: 800;
+   line-height: 1.3;
+   letter-spacing: 1px;
+   margin-top: 40px;
+}
+.getpara1{
+  font-family: 'Oswald',sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 30px;
+}
+.getpara2{
+  font-family: 'Open',sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.fb {
+  height: 30px;
+  width: 30px;
+  margin-top: 30px;
+}
+
+.twitter {
+  height: 35px;
+  width: 35px;
+  margin-top: 30px;
+}
+.whatsapp {
+  height: 30px;
+  width: 30px;
+  margin-top: 30px;
+}
+.linkedin {
+  height: 30px;
+  width: 30px;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cabtitle{
+  font-family: 'Oswald',sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.cabtitlepara{
+  margin-left: 40px;
+  margin-top: 20px;
+  line-height: 1.5;
+  font-family: 'Open',sans-serif;
+  font-size: 18px;
+} 
+.listitem{
+  font-family: 'Open',sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.form{
+  margin-top: 50px;
+}
+.callbtnsubmit{
+  width: 100px;
+  height: 40px;
+  color: #efefef;
+  background-color:#292D33 ;
+  margin-left: 5px;
+  position: relative;
+  bottom: 20px;
+}
+.page7bg{
+  background: #f1c50e;
+padding-bottom: 30px;
+}
+.designby{
+  margin-top: 60px;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+font-weight: 700;
+height: 80px;
+}
